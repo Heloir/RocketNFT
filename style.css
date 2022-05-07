@@ -1,0 +1,560 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(font/Montserrat-VariableFont_wght.ttf);
+}
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+body{
+  background-color: #0E0E0E;
+  
+}
+
+header{
+  background-image: url(imagens/background.png);
+  background-size: cover;
+}
+
+p{
+  color: white;
+}
+
+a{
+  color: white;
+}
+
+.container{
+  margin-left: 5.12rem;
+  margin-right: 5.12rem;
+}
+
+h1{
+  color: white;
+}
+
+.early-section{
+  height: 45rem;
+  border-bottom: 1px solid #5a57577a;
+}
+
+
+/*========RESET===========*/
+
+
+/*========Configurações do Nav======*/
+
+nav{
+  margin-bottom: 5.6rem;
+  padding-top: 3.56rem;
+}
+
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a{
+  text-decoration: none;
+  margin-right: 3rem;
+  color: rgba(255, 255, 255, 0.877);
+  transition: 0.3s;
+}
+
+nav a:hover{
+  color: rgb(255, 255, 255);
+}
+
+.nav-links{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+#nav-button button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14rem;
+  height: 3rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#nav-button button p{
+   color: black;
+   font-weight: bold;
+}
+
+
+/*===========Configurações de Conteudos do Header===========*/
+
+
+
+.headernft-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.marketing-digital{
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.artists span{
+ font-weight: bold;
+ padding-right: 0.5rem;
+}
+
+.marketing-digital p{
+  margin-bottom: 3.43rem;
+}
+
+.discover{
+  width: 30rem;
+  font-size: 1.31rem;
+  margin-bottom: 6.25rem;
+}
+
+.discover span{
+  color: #FF5B50;
+}
+
+.headernft-galeria{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.group-1 img{
+  margin-left: 0.2rem;
+  margin-bottom: 3.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.397);
+}
+
+
+
+.group-2 img{
+  margin-left: 0.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.397);
+}
+
+
+/*======Primeira Sessão=======*/
+
+
+.early-section{
+  display: flex;
+  flex-direction: row;
+  height: 637px;
+}
+
+
+
+/*==========Parte esquerda==========*/
+.analysis{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 280px;
+  gap: 70px;
+  border-right: 1px solid #5a57577a;
+}
+
+
+.analysis h1{
+  font-size: 3rem;
+}
+
+.analysis p{
+  color: #5A5757;
+}
+
+/*==========Parte Direita==========*/
+
+
+.arctions{
+  padding-top: 80px;
+  display: flex;
+  gap: 126px;
+  padding-left: 67px;
+}
+
+
+
+.arctions p a{
+  color: #FF5B50;
+}
+
+
+.arctions div{
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+}
+
+.arctions div a{
+  margin-top: 64px;
+}
+
+.picture{
+  background-image: url('imagens/banner.png');
+  background-size: cover;
+  height: 288px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*======FIM======*/
+
+
+/*=======Sessão dois===========*/
+
+.popular-week{
+  height: 500px;
+}
+
+.popular-title{
+ margin-top: 9rem;
+}
+
+.popular-title h1{
+  font-size: 50px;
+}
+
+.popular-title h1 span{
+  color: #FF5B50;
+}
+
+.Astronauts{
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Astronaut-left{
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #5a57577a;
+}
+
+.Astronaut-right{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15rem;
+}
+
+/*======Astrounauta Left======*/
+
+/*========Astrounauta 1========*/
+
+.Astronaut-1{
+  margin-right: 15rem;
+  line-height: 2.75rem;
+  color: white;
+}
+
+
+.Astronaut-1 div{
+  display: flex;
+}
+
+.Astronaut-1 span{
+  margin-left: 7rem;
+}
+
+.Astronaut-1 p{
+  color: #5A5757;
+}
+
+.Astronaut-1 p span{
+  margin-left: 8rem;
+  color: #FF5B50;
+}
+
+
+/*========Astrounauta 2========*/
+
+
+.Astronaut-2{
+  margin-right: 15rem;
+  margin-top: 3rem;
+  line-height: 2.75rem;
+  color: white; 
+}
+
+.Astronaut-2 div{
+  display: flex;
+}
+
+.Astronaut-2 span{
+  margin-left: 7rem;
+}
+
+.Astronaut-2 p{
+  color: #5A5757;
+}
+
+.Astronaut-2 p span{
+  margin-left: 5.5rem;
+  color: #FF5B50;
+}
+
+
+
+/*=====FIM====*/
+
+
+/*======Astrounauta Right======*/
+
+/*=====Astrounauta 3========*/
+
+.Astronaut-3{
+  line-height: 2.75rem;
+  color: white;
+}
+
+.Astronaut-3 div{
+  display: flex;
+}
+
+.Astronaut-3 span{
+  margin-left: 7rem;
+}
+
+.Astronaut-3 p{
+  color: #5A5757;
+}
+
+.Astronaut-3 p span{
+  margin-left: 5.5rem;
+  color: #FF5B50;
+}
+
+
+/*===========Astrounauta 4=========*/
+
+
+.Astronaut-4{
+  margin-top: 3rem;
+  line-height: 2.75rem;
+  color: white;
+}
+
+.Astronaut-4 div{
+  display: flex;
+}
+
+.Astronaut-4 span{
+  margin-left: 7rem;
+}
+
+.Astronaut-4 p{
+  color: #5A5757;
+}
+
+.Astronaut-4 p span{
+  margin-left: 6rem;
+  color: #FF5B50;
+}
+
+
+/*==========FIM=====*/
+
+
+
+/*============Artistas=========*/
+
+
+.best-Artists{
+   height: 61rem;
+}
+
+
+.bests-tittle{
+  margin-top: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bests-tittle h1{
+  font-size: 50px;
+}
+
+.bests-tittle h1 span{
+  color: #FF5B50;
+}
+
+
+
+/*=========Caixas======*/
+
+
+.artists-boxes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*=======Primeira Caixa========*/
+
+.artist{
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.246);
+  display: flex;
+  align-items: center;
+  background-color: #252525;
+  width: 350px;
+  height: 150px;
+  transition: 0.3s;
+  margin-top: 7.5rem;
+}
+
+.artist:hover{
+  background-color: #ff5c5090;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.artist p span{
+  color: #FF5B50;
+}
+
+.artist img{
+  margin-left: 2rem;
+}
+
+.artist div{
+  margin-left: 2.5rem;
+  line-height:  1.5rem;
+}
+
+
+.section-boxes1{
+  display: flex;
+  justify-content: row;
+}
+
+
+
+
+
+
+
+
+
+
+/*=======Segunda Caixa========*/
+
+.artist-1{
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.422);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252525;
+  width: 350px;
+  height: 150px;
+  transition: 0.3s;
+  margin-top: 7.5rem;
+  margin-left: 7rem;
+}
+
+.artist-1:hover{
+  background-color: #ff5c5090;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.artist-1 p span{
+  color: #FF5B50;
+}
+
+.artist-1 img{
+  margin-left: 2rem;
+}
+
+.artist-1 div{
+  margin-left: 2.5rem;
+  line-height:  1.5rem;
+}
+
+
+/*=======Terceira Caixa========*/
+
+
+.artist-2{
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.422);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252525;
+  width: 350px;
+  height: 150px;
+  transition: 0.3s;
+  margin-top: 7.5rem;
+  margin-left: 7rem;
+}
+
+.artist-2:hover{
+  background-color: #ff5c5090;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.artist-2 p span{
+  color: #FF5B50;
+}
+
+.artist-2 img{
+  margin-left: 2rem;
+}
+
+.artist-2 div{
+  margin-left: 2.5rem;
+  line-height:  1.5rem;
+}
+
+
+/*=======Segunda sessão de artistas=========*/
+
+
+.section-boxes2{
+  display: flex;
+  justify-content: row;
+}

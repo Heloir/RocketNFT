@@ -4,6 +4,10 @@
 }
 
 
+html{
+  scroll-behavior: smooth;
+}
+
 
 *{
   padding: 0;
@@ -14,7 +18,6 @@
 
 body{
   background-color: #0E0E0E;
-  
 }
 
 header{
@@ -26,8 +29,16 @@ p{
   color: white;
 }
 
+p::selection{
+  background-color: #FF5B50;
+}
+
 a{
   color: white;
+}
+
+a::selection{
+  background-color: #FF5B50;
 }
 
 .container{
@@ -37,6 +48,30 @@ a{
 
 h1{
   color: white;
+}
+
+h1::selection{
+  background-color: #FF5B50;
+}
+
+span::selection{
+  background-color: #ff5c5032;
+}
+
+h2::selection{
+  background-color: #FF5B50;
+}
+
+img::selection{
+  background-color: #FF5B50;
+}
+
+button::selection{
+  background-color: #FF5B50;
+}
+
+input::selection{
+  background-color: #FF5B50;
 }
 
 .early-section{
@@ -557,4 +592,205 @@ nav a:hover{
 .section-boxes2{
   display: flex;
   justify-content: row;
+}
+
+
+
+/*==============Link da sessão de artistas============*/
+
+.view-more{
+  margin-top: 3rem;
+}
+
+.view-more a{
+  text-decoration: none;
+  color: rgba(231, 229, 229, 0.83);
+  transition: 0.3s;
+}
+
+.view-more a:hover{
+  color: rgb(231, 229, 229);
+}
+
+.view-more img{
+  margin-left: 1rem;
+}
+
+
+/*===========FIM=============*/
+
+
+
+
+
+
+/*==========FOOTER===========*/
+
+
+/*============ TOP DO FOOTER =============================*/
+
+footer{
+  background-color: #252525;
+  height: 44rem;
+}
+
+.footer-top{
+  display: flex;
+  height: 13rem;
+  border-bottom: 1px solid #5A5757;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+.footer-top h2{
+  margin-left: 5.25rem;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-top h2 span{
+  color: #FF5B50;
+}
+
+.footer-top button{
+  margin-right: 5.25rem;
+  background-color: #FF5B50;
+  width: 4rem;
+  height: 4rem; 
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footer-top button:hover{
+  width: 5rem;
+  height: 5rem;
+}
+
+
+/*====== Aba de enviar email======= */
+
+
+
+.footer-middle{
+  height: 20rem;
+  border-bottom: 1px solid #5A5757;
+  display: flex;
+  flex-direction: row;
+}
+
+.invite{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 34rem;
+  border-right: 1px solid #5A5757;
+  height: 320px;
+}
+
+.invite p{
+  font-size: 30px;
+  width: 350px;
+}
+
+.invite p span{
+  color: #FF5B50;;
+}
+
+#submit input{
+  margin-top: 25px;
+  width: 12.5rem;
+  height: 4rem;
+  background-color: #0E0E0E;
+  border: none;
+}
+
+#submit input::placeholder{
+ padding-left: 15px;
+}
+
+#submit button{
+  cursor: pointer;
+  width: 10rem;
+  border: none;
+  height: 4rem;
+  background-color: white;
+}
+
+
+
+
+/*======== Comics =====*/
+
+.comics{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 122px;
+}
+
+.comics p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.comics a{
+  color: #5A5757;
+  text-decoration: none;
+}
+
+ul li{
+  list-style: none;
+  line-height: 40px;
+  margin-right: 128px;
+}
+
+/*========= footer bootom============*/
+
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.site p{
+  color: #5A5757;
+}
+
+.icones img{
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+
+/*=====FIM====*/
+
+
+
+
+/*====ANIMAÇÃO DE SESSÕES==*/
+
+
+[data-anime]{
+  opacity: 0;
+  transition: 0.3s;
+}
+
+
+[data-anime="left"]{
+  transform: translate3d(-50px, 0, 0);
+}
+
+
+[data-anime="right"]{
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime].animate{
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
 }

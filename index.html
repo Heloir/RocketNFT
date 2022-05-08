@@ -11,7 +11,7 @@
 <body>
   <main>
     <header class="header">
-    <div class="header container">
+    <div id="header" class="header container">
   
         <!--Configurações do Nav-->
          <div class="navegator">
@@ -81,7 +81,7 @@
 
     <!--=========FIM========-->
 
-    <section class="early-section">
+    <section class="early-section" data-anime="left">
 
        <div class="analysis">
          <div>
@@ -118,7 +118,7 @@
          </div>
     </section>
 
-    <section class="popular-week container">
+    <section class="popular-week container"  data-anime="right">
 
         <div class="popular-title">
           <h1><span>Populares</span> da semana</h1>
@@ -165,7 +165,7 @@
     </section>
 
 
-    <section class="best-Artists container">
+    <section class="best-Artists container" data-anime="left">
 
       <div class="bests-tittle">
        <h1>Melhores <span>artistas</span></h1>
@@ -228,12 +228,76 @@
                 <p><span>20 Fotografias</span></p>
               </div>
             </div>
-
           </div>
           
+          <div class="view-more">
+            <a href="#">Veja todos os artistas <img src="imagens/arrow-orange.svg" alt=""></a>
+          </div>
         </div>
       </div>
     </section>
+
+    <footer>
+      <div class="footer-top">
+          <h2>Rocket <span>NFTs</span></h2>
+          <a href="#header" class="buttontop"><button id="footer-button"><img src="imagens/arrow-black.svg" alt=""></button></a>
+      </div>
+
+      <div class="footer-middle">
+
+        <div class="invite">
+          <p>Fique por dentro de <span>todas as novidades</span></p>
+          <div id="submit">
+            <input type="email" placeholder="nft@gmail.com">
+            <button>Enviar</button>
+          </div>
+        </div>
+
+        <div class="comics">
+          <ul>
+            <li><p>Empresa</p></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Time</a></li>
+            <li><a href="#">Carreira</a></li>
+          </ul>
+
+          <ul>
+            <li><p>Mapa</p></li>
+            <li><a href="#">Galeira</a></li>
+            <li><a href="#">Populares</a></li>
+            <li><a href="#">Vendas</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+
+          <ul>
+            <li><p>Links</p></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Termos</a></li>
+            <li><a href="#">Política</a></li>
+            <li><a href="#">Ajuda</a></li>
+          </ul>        
+        </div>
+      </div>
+
+
+
+      <div class="footer-bottom container">
+        <div class="site">
+          <p>www.rocketseat.com.br</p>
+        </div>
+
+        <div class="icones">
+         <img src="imagens/instagram.svg" alt="">
+         <img src="imagens/youtube.svg" alt="">
+         <img src="imagens/twitter.svg" alt="">
+         <img src="imagens/email.svg" alt="">
+        </div>
+      </div>
+    </footer>
   </main>
+
 </body>
+
+<script src="script.js"></script>
 </html>
